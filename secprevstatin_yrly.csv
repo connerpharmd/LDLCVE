@@ -1,0 +1,20 @@
+Study,Cohort,n,LDL,cases,eventrate,lastrand,f_meanure,followup,outcome
+TNT,A80,4995,77,334,1.4,199912,median,4.9,"CVDeath, nfMI"
+TNT,A10,5006,101,418,1.8,199912,median,4.9,"CVDeath, nfMI"
+HPS,S,10269,88.941,898,1.75,199705,mean,5,"CorDeath, nfMI"
+HPS,PBO,10267,127.611,1212,2.36,199705,mean,5,"CorDeath, nfMI"
+CARE,P,2081,96.675,212,2.04,199112,median,5,"CHDDeath, nfMI"
+CARE,PBO,2078,134.26,274,2.64,199112,median,5,"CHDDeath, nfMI"
+LIPID,P,4512,113,557,2.02,199212,mean,6.1,"CHDDeath, nfMI"
+LIPID,PBO,4502,150,715,2.6,199212,mean,6.1,"CHDDeath, nfMI"
+4S,S,2221,122.4099,431,3.6,198908,median,5.4,"CorDeath, nfMI, resCA"
+4S,PBO,2223,190.2061,622,5.2,198908,median,5.4,"CorDeath, nfMI, resCA"
+IDEAL,S20,4449,99.8,463,2.14,200103,median,4.8,"CHDDeath, nfMI, resCA"
+IDEAL,A80,4439,80,411,1.88,200103,median,4.8,"CHDDeath, nfMI, resCA"
+LIPS,PBO,833,95.63,60,1.85,199810,mean/med,3.9,CorDeath/nfMI
+LIPS,F,844,146.52,42,1.28,199810,mean/med,3.9,CorDeath/nfMI
+GREACE,UC,800,169,89,3.7,200012,mean,3,CorDeath/nfMI
+GREACE,A,800,97,41,1.7,200012,mean,3,CorDeath/nfMI
+AVERT,A,164,77,5,2.03,199612,mean,1.5,CarDeath/nfMI
+PROVEIT,P40,2063,95,,4.15,200112,mean,2,"CHDDeath, nfMI"
+PROVEIT,A80,2099,62,,3.6,200112,mean,2,"CHDDeath, nfMI"
