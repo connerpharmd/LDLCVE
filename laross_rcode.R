@@ -1,4 +1,15 @@
 
+
+#_________________________________________________________________________________________________
+#_________________________________________________________________________________________________
+#_________________________________________________________________________________________________
+#    NOTE: if you have not already downloaded data to your local machine UNCOMMENT git hub code
+#   below.  After you have downloaded source you can point read.csv to correct directory.
+#_________________________________________________________________________________________________
+#_________________________________________________________________________________________________
+#_________________________________________________________________________________________________
+
+
 ##
 ##  SET UP CODE----
 ##
@@ -21,20 +32,14 @@ set.seed(11)
 statins <- read.csv("C:/Users/connerc/Documents/Admin/Pers/ispor_2015/secprevstatin_yrly.csv")
 
 
-# loading data from github
-# file <- "http://dl.dropboxusercontent.com/u/27644144/secprevstatin.csv"
-# # file <- "<a href="http://www.ndbc.noaa.gov/view_text_file.php?filename=44025h2011.txt.gz&dir=data/historical/stdmet/">http://www.ndbc.noaa.gov/view_text_file.php?filename=44025h2011.txt.gz&dir=data/historical/stdmet/</a>"
-# statins <- read.csv(file, header=T)
-# load data
+##
+##  NOTE!!!  UNCOMMENT BELOW IF YOU HAVE NOT DOWNLOADED DATA YET
+##
 
-## create 2 more models (sp1 and sp2)
-# 
 # url <- "https://raw.githubusercontent.com/connerpharmd/LDLCVE/master/secprevstatin_yrly.csv"
-# 
 # statins <- getURL(url,  ssl.verifypeer = FALSE)                
 # statins<- read.csv(textConnection(statins))
-# 
-# statins <- read.csv("~/GitHub/LDLCVE/secprevstatin_yrly.csv")
+
 
 statins$year <- as.numeric(substr(statins$lastrand, 1, 4)) + round(as.numeric(substr(statins$lastrand, 5, 6))/13, 2)
 
